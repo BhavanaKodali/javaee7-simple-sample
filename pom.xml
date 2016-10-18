@@ -35,11 +35,11 @@
             <name>Internal Releases</name>
             <url>http://127.0.0.1:8081/repository/maven-releases/</url>
         </repository>
-        <repository>
+        <SnapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
-        </repository>  
+        </SnapshotRepository>  
     </distributionManagement>
     <build>
     	<finalName>javaee7-simple-sample</finalName>
